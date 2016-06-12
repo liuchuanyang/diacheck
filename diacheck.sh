@@ -175,7 +175,7 @@ echo "*************************diameterfep process*****************************"
 echo "************************initialnumber***************************************"
 ps -ef | grep diameter | grep `whoami` | sed '/grep/d'
 ps -ef | grep inaccessd | grep `whoami` | sed '/grep/d'
-if [ -d $DIACHECK ]
+if [ -e $DIACHECK ]
 then
 	rm -rf $DIACHECK 
 fi
