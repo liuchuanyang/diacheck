@@ -204,7 +204,7 @@ LINE
 cd $DIR
 
 echo "######core file###### "
-if [ -s $COREFILE ]
+if [ -e $COREFILE ]
 then
     echo "core is exist."
     echo "$COREFILE"
