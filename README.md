@@ -1,3 +1,3 @@
 # diacheck
 check
-just check secript
+just check script
